@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PomodoroTaskbar.Core/PomodoroTaskbar.Core.csproj" />
+    <Project Path="src/PomodoroTaskbar.Windows/PomodoroTaskbar.Windows.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PomodoroTaskbar.Core.Tests/PomodoroTaskbar.Core.Tests.csproj" />
+    <Project Path="tests/PomodoroTaskbar.Windows.Tests/PomodoroTaskbar.Windows.Tests.csproj" />
+  </Folder>
+</Solution>

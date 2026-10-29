@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>Nekodoro</AssemblyName>
+    <Product>Nekodoro</Product>
+    <Title>Nekodoro</Title>
+    <RootNamespace>PomodoroTaskbar.Windows</RootNamespace>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets/App.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../PomodoroTaskbar.Core/PomodoroTaskbar.Core.csproj" /></ItemGroup>
+  <ItemGroup><Resource Include="Assets/App.ico" /></ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets/App.png" />
+    <Resource Include="Assets/Cat-sprite.png" />
+  </ItemGroup>
+</Project>
